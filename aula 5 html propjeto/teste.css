@@ -1,0 +1,89 @@
+body{
+    background-color: #0E4147;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    text-shadow: #28B4C7 2px 3px 2px;
+}
+h2{
+   font-size: 25px;
+   text-transform: uppercase;
+   text-shadow: #fdfdfd 2px 3px 2px;
+} 
+h3{
+
+    font-size: 30px;
+
+}
+
+.Container_matrix{
+
+  
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 10x;
+    align-items: center;
+  
+   
+}
+.caixa_externa{
+ 
+    width: 100%;
+    height: 500px;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px; 
+
+}
+
+.caixa_interna{
+    background-color: #06C7E0;
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 10px;
+    color:black;
+    text-align: center;
+    transition: transform 2s;
+
+ }
+
+.CEO{
+    display: flex;
+    background-color: #06C7E0;
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 10px;
+    color:black;
+    text-align: center;
+    align-items: center;
+    transition: transform 1,2s;
+
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.caixa_interna:hover{
+    background-color: orange;
+    transform: scale(1.20);
+}
+.fotos img{
+    width: 150px;
+    border: 50px;
+}

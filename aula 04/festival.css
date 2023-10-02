@@ -1,0 +1,63 @@
+body {
+    background-image: url("./imagens/fundo.jpg");
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+}
+header {
+    font-size: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav,footer  {
+    background-color: rgba(168, 184, 219, 0.7);
+    padding: 10px;
+    position: relative;
+    
+        
+}
+nav a {
+    background-color: rgb(4, 39, 114);
+    text-decoration: none;
+    color:white;
+    padding: 5px;   
+    border: 2px solid white; 
+    border-radius: 15px;
+    margin:30px;
+}
+article {
+    background-color: rgba(82, 103, 148, 0.7);
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
+}
+
+article img {
+    width: 250px;
+}
+.titulobanda {
+    font-weight: bolder;
+    color: yellow;
+}
+.descbanda {
+    margin: auto;
+}
+#banda1 {
+    position:fixed;
+    padding: auto;
+       
+}
+#banda2 {
+    position:fixed;
+    left: 500px;
+    
+
+}
+#banda3 {
+    position: relative;
+    left:950px;
+   top: 20px;
+   
+   
+}
